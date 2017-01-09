@@ -6,11 +6,15 @@ import org.litepal.crud.DataSupport;
  * Created by dell on 2017/1/4.
  */
 
+
 public class County extends DataSupport {
 
     private int id;
+
     private String countyName;//县名字
+
     private String weatherId;//县对应天气ID
+
     private int cityId;//当前县所属城市ID
 
     public int getId() {
@@ -44,4 +48,5 @@ public class County extends DataSupport {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
