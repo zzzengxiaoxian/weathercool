@@ -64,6 +64,10 @@ public class WeatherActivity extends AppCompatActivity {
 
     private ImageView bingPicImg;
 
+    private ImageView img_setting;
+
+    private ImageView img_update;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,6 +96,8 @@ public class WeatherActivity extends AppCompatActivity {
         swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navButton = (Button) findViewById(R.id.nav_button);
+        img_setting = (ImageView) findViewById(R.id.img_setting);
+        img_update = (ImageView) findViewById(R.id.img_update);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String weatherString = prefs.getString("weather", null);
         final String weatherId;
@@ -124,6 +130,15 @@ public class WeatherActivity extends AppCompatActivity {
         } else {
             loadBingPic();
         }
+
+        img_update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent();
+                intent.setClass(WeatherActivity.this,DownloadActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /**
