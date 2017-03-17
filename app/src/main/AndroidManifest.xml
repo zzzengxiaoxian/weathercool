@@ -15,17 +15,24 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:host="splash" android:scheme="smtq" />
             </intent-filter>
         </activity>
         <activity android:name=".WeatherActivity" />
         <activity android:name=".DownloadActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".MoreMore" />
 
         <service
-            android:name=".service.AutoUpdateService"
-            android:enabled="true"
-            android:exported="true" />
+        android:name=".service.AutoUpdateService"
+        android:enabled="true"
+        android:exported="true" />
         <service
             android:name=".service.DownloadService"
             android:enabled="true"

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+    android:gravity="center">
+
+    <com.tomer.fadingtextview.FadingTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="64dp"
+        android:textSize="25sp"
+        app:texts="@array/SettingInfo"
+        app:timeout="1000" />
+
+</LinearLayout>
+
+
+<com.jrummyapps.android.widget.AnimatedSvgView
+    android:id="@+id/animated_svg_view"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="25dp"
+    app:animatedSvgFillColors="@array/github_colors"
+    app:animatedSvgFillStart="1200"
+    app:animatedSvgFillTime="1000"
+    app:animatedSvgGlyphStrings="@array/github_strings"
+    app:animatedSvgImageSizeX="512"
+    app:animatedSvgImageSizeY="512"
+    app:animatedSvgTraceMarkerLength="50"
+    app:animatedSvgTraceTime="2000"
+    app:animatedSvgTraceTimePerGlyph="1000" />
+
+
+<TextView
+    android:id="@+id/tv_app"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="https://github.com/zzzengxiaoxian/weathercool"
+    />
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/animation_view1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:lottie_fileName="TwitterHeart.json"
+    app:lottie_loop="true"
+    app:lottie_autoPlay="true" />
+<com.airbnb.lottie.LottieAnimationView
+    android:id="@+id/animation_view"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:lottie_fileName="PinJump.json"
+    app:lottie_loop="true"
+    app:lottie_autoPlay="true" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="In China"
+    android:layout_gravity="center"
+    />
+
+
+
+</LinearLayout>

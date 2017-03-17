@@ -45,6 +45,10 @@
 
                     <include layout="@layout/setting" />
 
+                    <include layout="@layout/moreandmore" />
+
+                    <include layout="@layout/clock" />
+
                 </LinearLayout>
 
             </ScrollView>

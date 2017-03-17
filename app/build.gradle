@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.coolweather.android"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 24
         versionCode 2
         versionName "1.1"
@@ -27,6 +27,10 @@ dependencies {
     compile 'org.litepal.android:core:1.3.2'
     compile 'com.squareup.okhttp3:okhttp:3.4.1'
     compile 'com.google.code.gson:gson:2.7'
-    compile 'ren.qinc.edgetranslucent:lib:0.0.1'    //Android 任意View边沿渐变透明
-
+    compile 'com.github.lypeer:GoogleClock:1.0.0'//svg谷歌闹钟
+    compile 'com.tomer:fadingtextview:1.3'//FadingTextView https://github.com/rosenpin/FadingTextView
+    compile 'com.jrummyapps:animated-svg-view:1.0.1'//AnimatedSvgView
+    compile 'com.ufreedom.uikit:FloatingTextLibrary:0.2.0'//文字漂浮
+    compile 'com.airbnb.android:lottie:1.0.1'//airbnb
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'//CollapsingToolbarLayout包含TabLayout  https://github.com/hugeterry/CoordinatorTabLayout
 }
