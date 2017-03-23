@@ -47,6 +47,8 @@
 
                     <include layout="@layout/moreandmore" />
 
+                    <include layout="@layout/girl" />
+
                     <include layout="@layout/clock" />
 
                 </LinearLayout>
@@ -57,7 +59,7 @@
 
         <fragment
             android:id="@+id/choose_area_fragment"
-            android:name="com.coolweather.android.ChooseAreaFragment"
+            android:name="com.coolweather.android.fragment.ChooseAreaFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="start" />

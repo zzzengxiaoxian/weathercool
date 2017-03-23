@@ -12,8 +12,8 @@ import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.widget.Toast;
 
-import com.coolweather.android.DownloadTask;
-import com.coolweather.android.MainActivity;
+import com.coolweather.android.util.DownloadTask;
+import com.coolweather.android.ui.MainActivity;
 import com.coolweather.android.R;
 import com.coolweather.android.interfacepack.DownloadListener;
 

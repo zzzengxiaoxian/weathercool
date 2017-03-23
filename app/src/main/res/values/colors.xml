@@ -3,7 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="black">#000000</color> <!-- A light Holo shade of blue -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="line">#e0e0e0</color>
+    <color name="colorTextDark">#424242</color>
+    <color name="colorTextDark2nd">#757575</color>
+    <color name="actionColor">#FF4081</color>
+
+    <!-- A light Holo shade of blue -->
     <color name="holo_blue_light">#ff33b5e5</color>
     <!-- A light Holo shade of gray -->
     <color name="holo_gray_light">#33999999</color>
@@ -27,4 +35,27 @@
     <color name="holo_blue_bright">#ff00ddff</color>
     <!-- A really bright Holo shade of gray -->
     <color name="holo_gray_bright">#33CCCCCC</color>
+
+
+    <color name="lapis_blue">#014284</color>
+    <color name="pale_dogwood">#ECCAC0</color>
+    <color name="greenery">#7DA743</color>
+    <color name="primrose_yellow">#F1C84C</color>
+    <color name="flame">#F44727</color>
+    <color name="island_paradise">#8AD9E0</color>
+    <color name="kale">#4E673F</color>
+    <color name="pink_yarrow">#C72B6C</color>
+    <color name="niagara">#4C829E</color>
+
+    <array name="colors">
+        <item>@color/lapis_blue</item>
+        <item>@color/pale_dogwood</item>
+        <item>@color/greenery</item>
+        <item>@color/primrose_yellow</item>
+        <item>@color/flame</item>
+        <item>@color/island_paradise</item>
+        <item>@color/kale</item>
+        <item>@color/pink_yarrow</item>
+        <item>@color/niagara</item>
+    </array>
 </resources>
