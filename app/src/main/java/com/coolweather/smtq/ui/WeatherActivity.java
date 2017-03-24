@@ -157,7 +157,7 @@ public class WeatherActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent();
-                intent.setClass(WeatherActivity.this,MoreMore.class);
+                intent.setClass(WeatherActivity.this,GirlActivity.class);
                 startActivity(intent);
             }
         });
