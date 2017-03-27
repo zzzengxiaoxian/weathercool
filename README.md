@@ -1,7 +1,11 @@
 来源于第二行代码的天气app  酷欧天气  
 ===========
  
+ 
+ 
 什么天气 是一款基于Android端开源的天气预报软件，具备查看全国的省市县、查询任意城市天气、自由切换城市、手动更新天气、后台自动更新天气等功能。酷欧天气中的天气数据由和风天气提供，背景图片由必应提供，代码遵循Apache v2 License开源协议。本软件主要作为学习和交流使用。
+
+app下载地址 ：http://android.myapp.com/myapp/detail.htm?apkName=com.coolweather.smtq
 
 ![Image text](https://raw.githubusercontent.com/zzzengxiaoxian/weathercool/master/image-folder/15355966161778294.jpg)
 ![Image text](https://raw.githubusercontent.com/zzzengxiaoxian/weathercool/master/image-folder/283740068664274122.jpg)
